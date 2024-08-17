@@ -44,11 +44,11 @@ document.getElementById('submit-btn').addEventListener('click', () => {
     document.getElementById('flip-result').textContent = `The coin flip result is: ${matchCount > mismatchCount ? 'Heads' : 'Tails'}`;
     document.getElementById('summary').textContent = `Total Attempts: ${numAttempts}\nNumber of Heads: ${matchCount}\nNumber of Tails: ${mismatchCount}`;
     
-    // Add pregnancy suggestion
+    // Add Game suggestion
     const suggestion = matchCount > mismatchCount 
-        ? "The number of Heads exceeds the number of Tails, suggesting it's a good time for pregnancy."
-        : "The number of Tails exceeds the number of Heads, suggesting it may not be the right time for pregnancy.";
-    document.getElementById('pregnancy-suggestion').textContent = suggestion;
+        ? "The number of Heads exceeds the number of Tails, suggesting it's a good time for Game."
+        : "The number of Tails exceeds the number of Heads, suggesting it may not be the right time for Game.";
+    document.getElementById('Game-suggestion').textContent = suggestion;
 
     // Show detailed flip logs
     // const flipLogs = userChoices.map((choice, index) => `Attempt ${index + 1}: ${choice === 1 ? 'Heads' : 'Tails'}`).join('\n');

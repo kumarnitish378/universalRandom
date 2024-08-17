@@ -1,11 +1,11 @@
-### **Project Presentation: Pregnancy Planning Flip**
+### **Project Presentation: Game Planning Flip**
 
 ---
 
-****Project Name:** Pregnancy Planning Flip**
+****Project Name:** Game Planning Flip**
 
 **Objective:**  
-The Pregnancy Planning Flip is a fun and interactive tool designed to aid couples in their pregnancy planning process using a coin-flip simulation. This project combines randomness and user interaction to provide a unique experience in decision-making.
+The Game Planning Flip is a fun and interactive tool designed to aid couples in their Game planning process using a coin-flip simulation. This project combines randomness and user interaction to provide a unique experience in decision-making.
 
 ---
 
@@ -60,7 +60,7 @@ The Pregnancy Planning Flip is a fun and interactive tool designed to aid couple
 
 ****Conclusion:**
 
-Pregnancy Planning Flip is designed to offer a playful and insightful tool for couples in their planning journey. It combines randomness with user interaction to create a unique experience, while also providing useful tracking and feedback features. Future updates will enhance its functionality and user engagement.
+Game Planning Flip is designed to offer a playful and insightful tool for couples in their planning journey. It combines randomness with user interaction to create a unique experience, while also providing useful tracking and feedback features. Future updates will enhance its functionality and user engagement.
 
 ---
 
