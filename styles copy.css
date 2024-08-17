@@ -1,0 +1,82 @@
+/* Base styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Clean and modern font */
+    line-height: 1.6; /* Improved line height for readability */
+    margin: 0;
+    padding: 0;
+    background-color: #e9ecef; /* Light grey background */
+}
+
+/* Container for the main content */
+.container {
+    max-width: 800px; /* Maximum width of the container */
+    margin: 50px auto; /* Centered with top margin */
+    padding: 20px; /* Padding inside the container */
+    background: #ffffff; /* White background for content */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+/* Headings */
+h1 {
+    color: #6c757d; /* Soft dark color for the main title */
+    text-align: center; /* Center aligning the heading */
+    font-size: 2.5em; /* Large heading size */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+h2 {
+    color: #343a40; /* Darker color for subheadings */
+    margin-top: 30px; /* Space above subheadings */
+}
+
+ol {
+    margin-left: 20px; /* Indent ordered list */
+}
+
+/* Paragraphs and links */
+p {
+    color: #495057; /* Dark grey color for text */
+    margin-bottom: 15px; /* Space below paragraphs */
+}
+
+strong {
+    color: #007bff; /* Blue color for strong text */
+}
+
+/* Link styles */
+a {
+    color: #007bff; /* Blue color for links */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Back to Home link */
+.back-link {
+    display: inline-block; /* Inline block for better spacing */
+    margin-top: 30px; /* Space above the link */
+    padding: 10px 20px; /* Padding for the link */
+    background-color: #007bff; /* Button-like blue background */
+    color: white; /* White text */
+    border-radius: 6px; /* Rounded corners */
+    text-align: center; /* Center text */
+    transition: background-color 0.3s; /* Smooth background change */
+}
+
+.back-link:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em; /* Smaller heading for mobile */
+    }
+
+    .container {
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+}

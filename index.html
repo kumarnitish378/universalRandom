@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pregnancy Planning Flip</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Pregnancy Planning Flip</h1>
+        <p>Welcome to the Pregnancy Planning Flip tool! This interactive tool helps you make decisions using a simulated coin flip.</p>
+               
+        <div id="input-section">
+            <label for="numAttempts">Enter the number of attempts (odd number only):</label>
+            <input type="number" id="numAttempts" min="1" placeholder="Enter an odd number">
+            <button id="submit-btn">Generate Results</button>
+            <a href="about.html" id="submit-btn">About</a>
+        </div>
+        <div id="result-section" style="display: none;">
+            <div class="text-result">
+                <h2>Results:</h2>
+                <p id="flip-result"></p>
+                <p id="summary"></p>
+                <p id="pregnancy-suggestion"></p>
+                <pre id="flip-logs"></pre>
+                <h3>Flip Distribution:</h3>
+            </div>
+            <div class="visual-result">
+                <canvas id="flip-chart" width="328" height="328"></canvas>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

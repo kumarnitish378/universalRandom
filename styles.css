@@ -1,0 +1,161 @@
+/* Base styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
+    line-height: 1.6; /* Improved line height for readability */
+    margin: 0;
+    padding: 0;
+    background-color: #e9ecef; /* Light grey background for the body */
+}
+
+/* Container for the main content */
+.container {
+    max-width: 900px; /* Maximum width of the container */
+    margin: 50px auto; /* Centered with top margin */
+    padding: 20px; /* Padding inside the container */
+    background: #ffffff; /* White background for content */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+/* Headings */
+h1 {
+    color: #6c757d; /* A soft dark color for the main title */
+    text-align: center; /* Center aligning the heading */
+    font-size: 2.5em; /* Large heading size */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+h2, h3 {
+    color: #343a40; /* Darker color for subheadings */
+    margin-top: 20px; /* Space above subheadings */
+}
+
+/* Input section styles */
+#input-section {
+    margin: 30px 0; /* Spacing around the input section */
+    text-align: center; /* Centering input section content */
+}
+
+label {
+    display: block; /* Labels on their own lines */
+    margin-bottom: 10px; /* Space below labels */
+    color: #495057; /* Dark grey color for labels */
+    font-weight: bold; /* Bold text for labels */
+}
+
+input[type="number"] {
+    padding: 10px; /* Padding inside the input field */
+    width: 100%; /* Full width */
+    max-width: 320px; /* Maximum width of input field */
+    border: 2px solid #6c757d; /* Border with a dark color */
+    border-radius: 6px; /* Rounded corners */
+    font-size: 16px; /* Larger font size */
+    transition: border-color 0.3s; /* Smooth transition on focus */
+}
+
+input[type="number"]:focus {
+    border-color: #28a745; /* Green border on focus */
+    outline: none; /* Remove default outline */
+}
+
+button {
+    padding: 10px 25px; /* Padding for button */
+    background-color: #007bff; /* Bootstrap-like blue for the button */
+    color: white; /* White text on the button */
+    border: none; /* No border */
+    border-radius: 6px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s; /* Smooth background change */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Result section styles */
+#result-section {
+    margin-top: 30px; /* Margin above the results */
+    padding: 15px; /* Padding inside result section */
+    background-color: #f8f9fa; /* Light background for results */
+    border-radius: 8px; /* Rounded corners */
+    border: 1px solid #ced4da; /* Light border */
+    display: flex; /* Enable flexbox */
+    flex-direction: row; /* Align children in a row */
+    justify-content: space-between; /* Space between text and visual results */
+    align-items: flex-start; /* Align items to the start */
+}
+
+/* Styling for the text result */
+.text-result {
+    flex: 2; /* Takes up 2 parts of the available space */
+    margin-right: 20px; /* Space between text and visual result */
+}
+
+/* Styling for the visual result */
+.visual-result {
+    flex: 1; /* Takes up 1 part of the available space */
+    flex-direction: column;
+    display: flex; /* Enable flexbox for the visual result */
+    justify-content: center; /* Center the canvas horizontally */
+    align-items: center; /* Center the canvas vertically */
+}
+
+/* Additional styles for the canvas if needed */
+#flip-chart {
+    max-width: 80%; /* Ensure the chart does not exceed its container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Styling the logs for better readability */
+pre {
+    background-color: #f1f3f5; /* Light background for logs */
+    padding: 10px; /* Padding around the logs */
+    border-radius: 6px; /* Rounded corners */
+    overflow-x: auto; /* Scroll if content exceeds width */
+}
+
+/* Responsive Styles */
+@media (max-width: 400px) {
+    h1 {
+        font-size: 2em; /* Smaller heading for mobile */
+    }
+
+    input[type="number"], button {
+        width: 90%; /* Wider inputs and buttons on mobile */
+        max-width: none; /* Remove max width on smaller screens */
+    }
+
+    #flip-chart {
+        width: 80% !important; /* Responsive chart */
+        height: auto !important; /* Maintain aspect ratio */
+    }
+
+    /* Adjust result section for mobile */
+    #result-section {
+        flex-direction: column; /* Stack vertically on small screens */
+        align-items: center; /* Center items */
+    }
+
+    .text-result, .visual-result {
+        margin-right: 0; /* Remove margin for mobile */
+        width: 100%; /* Full width on mobile */
+    }
+}
+
+/* About Button Styles */
+#about-btn {
+    padding: 10px 25px; /* Padding for the button */
+    background-color: #17a2b8; /* Bootstrap-like teal for the button */
+    color: white; /* White text on the button */
+    border: none; /* No border */
+    border-radius: 6px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s; /* Smooth background change */
+    margin-bottom: 20px; /* Space below the about button */
+}
+
+#about-btn:hover {
+    background-color: #138496; /* Darker teal on hover */
+}
